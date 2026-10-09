@@ -20,6 +20,18 @@ Enterprise-grade Playwright automation framework demonstrating modern SDET and Q
 
 ✅ HTML Reports
 
+## Current Status
+
+| Area | Status |
+|--------|--------|
+| UI Testing | ✅ |
+| API Testing | ✅ |
+| Docker | ✅ |
+| GitHub Actions | ✅ |
+| CodeQL | ✅ |
+| Gitleaks | ✅ |
+| Dependabot | ✅ |
+
 ## Technology Stack
 
 - Playwright
@@ -86,6 +98,12 @@ This project includes:
 - GitHub Actions
 - Automated Playwright Execution
 - Artifact Publishing
+
+## Security
+
+- CodeQL Static Analysis
+- Secret Scanning (Gitleaks)
+- Dependabot Dependency Management
 
 ## Author
 
