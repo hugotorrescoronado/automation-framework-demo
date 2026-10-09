@@ -1,0 +1,33 @@
+{
+  "name": "automation-framework-demo",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Playwright automation framework demonstrating SDET, CI/CD, Docker and API testing practices.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "smoke": "playwright test tests/smoke",
+    "api": "playwright test tests/api",
+    "ui": "playwright test tests/ui",
+    "regression": "playwright test tests/regression",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugotorrescoronado/automation-framework-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hugotorrescoronado/automation-framework-demo/issues"
+  },
+  "homepage": "https://github.com/hugotorrescoronado/automation-framework-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0"
+  }
+}
