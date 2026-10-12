@@ -274,6 +274,15 @@ tosca-examples/
 ```
 
 ---
+## Documentation
+
+- docs/architectre.md
+- docs/cucumber-guide.md
+- docs/selenium-guide.md
+- docs/test-strategy.md
+- docs/tosca-concepts.md
+
+---
 
 ## Roadmap
 
