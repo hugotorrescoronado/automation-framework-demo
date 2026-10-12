@@ -32,14 +32,47 @@ Enterprise-grade Playwright automation framework demonstrating modern SDET and Q
 | Gitleaks | ✅ |
 | Dependabot | ✅ |
 
+## Automation Technologies
+
+| Technology | Status |
+|------------|---------|
+| Playwright | ✅ |
+| Selenium | ✅ |
+| Cucumber | ✅ |
+| API Testing | ✅ |
+| Docker | ✅ |
+| GitHub Actions | ✅ |
+| Tosca Concepts | ✅ |
+
 ## Technology Stack
 
+### Automation
+
 - Playwright
+- Selenium WebDriver
+- Cucumber
+- REST API Testing
+
+### Programming
+
 - TypeScript
-- Docker
-- GitHub Actions
-- REST APIs
+- Java
 - Node.js
+
+### CI/CD & DevOps
+
+- GitHub Actions
+- Docker
+- CodeQL
+- Gitleaks
+- Dependabot
+
+### Quality Engineering
+
+- Page Object Model
+- BDD
+- Model-Based Testing
+- Risk-Based Testing
 
 ## Project Structure
 
@@ -57,6 +90,34 @@ tests/
 
 Dockerfile
 playwright.config.ts
+```
+
+## Framework Coverage
+
+```text
+Playwright
+│
+├── UI Testing
+├── API Testing
+└── CI/CD
+
+Selenium
+│
+├── WebDriver
+├── TestNG
+└── Page Object Model
+
+Cucumber
+│
+├── BDD
+├── Gherkin
+└── Step Definitions
+
+Tosca Concepts
+│
+├── Model-Based Testing
+├── Risk-Based Testing
+└── Requirements Traceability
 ```
 
 ## Current Coverage
