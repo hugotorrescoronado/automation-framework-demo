@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/hugotorrescoronado/automation-framework-demo#readme",
   "devDependencies": {
-    "@playwright/test": "^1.64.0"
+    "@playwright/test": "^1.64.1"
   }
 }
